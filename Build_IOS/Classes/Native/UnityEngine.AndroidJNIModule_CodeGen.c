@@ -460,13 +460,7 @@ extern void AndroidJNISafe_ToIntArray_mE4647AC18D85206D98121752C3B8CD7D52A321EB 
 extern void AndroidJNISafe_GetObjectArrayElement_m02B6993F13670DD2D1557D75EC31D8D860F10FD0 (void);
 // 0x000000E7 System.Int32 UnityEngine.AndroidJNISafe::GetArrayLength(System.IntPtr)
 extern void AndroidJNISafe_GetArrayLength_m809419F04C9BB93FED5B4A89F0539231C9B90E6F (void);
-// 0x000000E8 System.Boolean UnityEngine.Android.Permission::HasUserAuthorizedPermission(System.String)
-extern void Permission_HasUserAuthorizedPermission_mF4C90E13124E28F6F672200E489CC25A9B645B8B (void);
-// 0x000000E9 System.Void UnityEngine.Android.Permission::RequestUserPermission(System.String)
-extern void Permission_RequestUserPermission_mF9CF3A21AAF34B311137C4D00B3AD6A6C2694242 (void);
-// 0x000000EA System.Void UnityEngine.Android.Permission::RequestUserPermissions(System.String[],UnityEngine.Android.PermissionCallbacks)
-extern void Permission_RequestUserPermissions_m09FE74BF5829C8B48A0E6C9B7F7846FEE763D2DA (void);
-static Il2CppMethodPointer s_methodPointers[234] = 
+static Il2CppMethodPointer s_methodPointers[231] = 
 {
 	AndroidJavaRunnable__ctor_m000E4FEB2DE8031A1CD733610D76E2BF60490334,
 	AndroidJavaRunnable_Invoke_m98CFB1479B942F71BF29F53CFDAC1CB9DAFAEBE1,
@@ -699,11 +693,8 @@ static Il2CppMethodPointer s_methodPointers[234] =
 	AndroidJNISafe_ToIntArray_mE4647AC18D85206D98121752C3B8CD7D52A321EB,
 	AndroidJNISafe_GetObjectArrayElement_m02B6993F13670DD2D1557D75EC31D8D860F10FD0,
 	AndroidJNISafe_GetArrayLength_m809419F04C9BB93FED5B4A89F0539231C9B90E6F,
-	Permission_HasUserAuthorizedPermission_mF4C90E13124E28F6F672200E489CC25A9B645B8B,
-	Permission_RequestUserPermission_mF9CF3A21AAF34B311137C4D00B3AD6A6C2694242,
-	Permission_RequestUserPermissions_m09FE74BF5829C8B48A0E6C9B7F7846FEE763D2DA,
 };
-static const int32_t s_InvokerIndices[234] = 
+static const int32_t s_InvokerIndices[231] = 
 {
 	2233,
 	4843,
@@ -936,9 +927,6 @@ static const int32_t s_InvokerIndices[234] =
 	6926,
 	6450,
 	6898,
-	6807,
-	7124,
-	6680,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[14] = 
 {
@@ -1014,7 +1002,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_AndroidJNIModule_CodeGen
 const Il2CppCodeGenModule g_UnityEngine_AndroidJNIModule_CodeGenModule = 
 {
 	"UnityEngine.AndroidJNIModule.dll",
-	234,
+	231,
 	s_methodPointers,
 	0,
 	NULL,

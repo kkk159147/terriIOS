@@ -394,6 +394,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Application
 
+		//System.Boolean UnityEngine.Application::HasUserAuthorization(UnityEngine.UserAuthorization)
+		void Register_UnityEngine_Application_HasUserAuthorization();
+		Register_UnityEngine_Application_HasUserAuthorization();
+
 		//System.Boolean UnityEngine.Application::get_isBatchMode()
 		void Register_UnityEngine_Application_get_isBatchMode();
 		Register_UnityEngine_Application_get_isBatchMode();
@@ -413,6 +417,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Application::set_targetFrameRate(System.Int32)
 		void Register_UnityEngine_Application_set_targetFrameRate();
 		Register_UnityEngine_Application_set_targetFrameRate();
+
+		//UnityEngine.AsyncOperation UnityEngine.Application::RequestUserAuthorization(UnityEngine.UserAuthorization)
+		void Register_UnityEngine_Application_RequestUserAuthorization();
+		Register_UnityEngine_Application_RequestUserAuthorization();
 
 		//UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
 		void Register_UnityEngine_Application_get_platform();
