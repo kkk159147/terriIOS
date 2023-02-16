@@ -33,6 +33,12 @@
       <key>NSAllowsArbitraryLoads</key>
       <true />
     </dict>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>The app requires access to Photos to save media to it.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>The app requires access to Photos to interact with it.</string>
+    <key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
+    <true />
     <key>UILaunchStoryboardName</key>
     <string>LaunchScreen-iPhone</string>
     <key>UILaunchStoryboardName~ipad</key>
@@ -65,8 +71,8 @@
     <key>Unity_LoadingActivityIndicatorStyle</key>
     <integer>-1</integer>
     <key>UnityCloudProjectID</key>
-    <string />
+    <string></string>
     <key>UnityCrashSubmissionURL</key>
-    <string />
+    <string></string>
   </dict>
 </plist>

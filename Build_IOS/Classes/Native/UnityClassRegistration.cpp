@@ -72,6 +72,9 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_UnityWebRequestAssetBundle();
 	RegisterModule_UnityWebRequestAssetBundle();
 
+	void RegisterModule_UnityWebRequestTexture();
+	RegisterModule_UnityWebRequestTexture();
+
 }
 
 template <typename T> void RegisterUnityClass(const char*);
