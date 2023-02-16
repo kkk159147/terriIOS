@@ -2908,14 +2908,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Screen
 
-	//Start Registrations for type : UnityEngine.ScreenCapture
-
-		//UnityEngine.Texture2D UnityEngine.ScreenCapture::CaptureScreenshotAsTexture(System.Int32,UnityEngine.ScreenCapture/StereoScreenCaptureMode)
-		void Register_UnityEngine_ScreenCapture_CaptureScreenshotAsTexture();
-		Register_UnityEngine_ScreenCapture_CaptureScreenshotAsTexture();
-
-	//End Registrations for type : UnityEngine.ScreenCapture
-
 	//Start Registrations for type : UnityEngine.ScriptableObject
 
 		//System.Void UnityEngine.ScriptableObject::CreateScriptableObject(UnityEngine.ScriptableObject)

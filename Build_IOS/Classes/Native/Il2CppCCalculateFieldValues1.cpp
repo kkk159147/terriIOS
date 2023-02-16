@@ -312,6 +312,8 @@ struct Func_2_tDDBE08B46BEFDD869DE0B97D023CB9C89674FED6;
 struct Func_2_tBA43006BE5B44011173C435E32D4BC18730623FB;
 // System.Func`2<UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord,System.UInt32>
 struct Func_2_tEDCDCD7BE3F7A4F5A742A5FD711EA63155BC825E;
+// System.Func`2<UnityEngine.UIElements.GradientSettings,Unity.VectorGraphics.InternalBridge/GradientSettingsBridge>
+struct Func_2_t366DDDB5C5FB5478228D0B49FFF0721AEFC1D33F;
 // System.Func`2<UnityEngine.UI.ILayoutElement,System.Single>
 struct Func_2_t49236B9EA14C72C8FFE252C9FA0F309EB5CA6DB5;
 // System.Func`2<System.Int32,System.UInt16>
@@ -360,6 +362,14 @@ struct Func_2_t75939E80DE5DF339DA868BCFE0E7927F0EE45102;
 struct Func_2_t33ED521BE3A7E943FA8D764514952EDF1AF1C0FA;
 // System.Func`2<UnityEngine.Vector2,UnityEngine.Vector3>
 struct Func_2_tECC97CAACCC7CB873184FEF49E8343711EEF4768;
+// System.Func`2<UnityEngine.UIElements.VectorImageVertex,UnityEngine.Color>
+struct Func_2_t0471F7DAEBC22E8FBF8EB17B66AA9ED6750D2237;
+// System.Func`2<UnityEngine.UIElements.VectorImageVertex,UnityEngine.Vector2>
+struct Func_2_t3D0310BCABDAAEF12A5955F712B55633C6CB8B9C;
+// System.Func`2<Unity.VectorGraphics.InternalBridge/GradientSettingsBridge,UnityEngine.UIElements.GradientSettings>
+struct Func_2_t9E8CE435999D136D29DF6074600D6F34D77E48FE;
+// System.Func`2<Unity.VectorGraphics.InternalBridge/VectorImageVertexBridge,UnityEngine.UIElements.VectorImageVertex>
+struct Func_2_t6C07AB9155802018C389E7DDD4F2D803421EC46F;
 // System.Func`2<Unity.VectorGraphics.VectorUtils/Geometry,System.Boolean>
 struct Func_2_t9F5DD546D6BFDD9223CDFE4C1953C40E497D4D61;
 // System.Func`3<System.IObserver`1<System.Int64>,System.Threading.CancellationToken,System.Collections.IEnumerator>
@@ -5592,6 +5602,11 @@ struct U3CMouseDragOutsideRectU3Ed__192_t98016C4304FFA902A04AC68B81726EA645D5ACF
 	PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___eventData_2;
 	// UnityEngine.UI.InputField UnityEngine.UI.InputField/<MouseDragOutsideRect>d__192::<>4__this
 	InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* ___U3CU3E4__this_3;
+};
+
+// Unity.VectorGraphics.InternalBridge/<>c
+struct U3CU3Ec_t3D6A2F9331B03DAC48088B7A6E141BCC153BA9B3  : public RuntimeObject
+{
 };
 
 // TMPro.KerningTable/<>c
@@ -28025,6 +28040,29 @@ struct U3CU3Ec_tFE23038B63E5E9EDD95FF07844C136230AED9FFC_StaticFields
 
 // UnityEngine.UI.InputField/<MouseDragOutsideRect>d__192
 
+// Unity.VectorGraphics.InternalBridge/<>c
+struct U3CU3Ec_t3D6A2F9331B03DAC48088B7A6E141BCC153BA9B3_StaticFields
+{
+	// Unity.VectorGraphics.InternalBridge/<>c Unity.VectorGraphics.InternalBridge/<>c::<>9
+	U3CU3Ec_t3D6A2F9331B03DAC48088B7A6E141BCC153BA9B3* ___U3CU3E9_0;
+	// System.Func`2<Unity.VectorGraphics.InternalBridge/VectorImageVertexBridge,UnityEngine.UIElements.VectorImageVertex> Unity.VectorGraphics.InternalBridge/<>c::<>9__5_0
+	Func_2_t6C07AB9155802018C389E7DDD4F2D803421EC46F* ___U3CU3E9__5_0_1;
+	// System.Func`2<Unity.VectorGraphics.InternalBridge/GradientSettingsBridge,UnityEngine.UIElements.GradientSettings> Unity.VectorGraphics.InternalBridge/<>c::<>9__5_1
+	Func_2_t9E8CE435999D136D29DF6074600D6F34D77E48FE* ___U3CU3E9__5_1_2;
+	// System.Func`2<UnityEngine.UIElements.VectorImageVertex,UnityEngine.Vector2> Unity.VectorGraphics.InternalBridge/<>c::<>9__6_0
+	Func_2_t3D0310BCABDAAEF12A5955F712B55633C6CB8B9C* ___U3CU3E9__6_0_3;
+	// System.Func`2<UnityEngine.UIElements.VectorImageVertex,UnityEngine.Vector2> Unity.VectorGraphics.InternalBridge/<>c::<>9__6_1
+	Func_2_t3D0310BCABDAAEF12A5955F712B55633C6CB8B9C* ___U3CU3E9__6_1_4;
+	// System.Func`2<UnityEngine.UIElements.VectorImageVertex,UnityEngine.Color> Unity.VectorGraphics.InternalBridge/<>c::<>9__6_2
+	Func_2_t0471F7DAEBC22E8FBF8EB17B66AA9ED6750D2237* ___U3CU3E9__6_2_5;
+	// System.Func`2<UnityEngine.UIElements.VectorImageVertex,UnityEngine.Vector2> Unity.VectorGraphics.InternalBridge/<>c::<>9__6_3
+	Func_2_t3D0310BCABDAAEF12A5955F712B55633C6CB8B9C* ___U3CU3E9__6_3_6;
+	// System.Func`2<UnityEngine.UIElements.GradientSettings,Unity.VectorGraphics.InternalBridge/GradientSettingsBridge> Unity.VectorGraphics.InternalBridge/<>c::<>9__6_4
+	Func_2_t366DDDB5C5FB5478228D0B49FFF0721AEFC1D33F* ___U3CU3E9__6_4_7;
+};
+
+// Unity.VectorGraphics.InternalBridge/<>c
+
 // TMPro.KerningTable/<>c
 struct U3CU3Ec_t366AF356A3D25B81C4FD68C17E5F26CF6D8B818B_StaticFields
 {
@@ -40788,15 +40826,18 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5972[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5975[4] = 
 {
 	static_cast<int32_t>(offsetof(DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C, ___m_NativeData_1)),static_cast<int32_t>(offsetof(DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C, ___mTexture_2)),static_cast<int32_t>(offsetof(DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C, ___mHasTexture_3)),static_cast<int32_t>(offsetof(DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C, ___mNonReadable_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5992[4] = 
-{
-	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5997[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5994[4] = 
 {
 	static_cast<int32_t>(offsetof(VectorImageVertexBridge_t2843746D575BD491159E12640C7D2BC8E4CF0285, ___position_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(VectorImageVertexBridge_t2843746D575BD491159E12640C7D2BC8E4CF0285, ___tint_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(VectorImageVertexBridge_t2843746D575BD491159E12640C7D2BC8E4CF0285, ___uv_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(VectorImageVertexBridge_t2843746D575BD491159E12640C7D2BC8E4CF0285, ___settingIndex_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5998[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5995[4] = 
 {
 	static_cast<int32_t>(offsetof(GradientSettingsBridge_t3724705E3C6E74096502E2041E29482B09F05544, ___gradientType_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(GradientSettingsBridge_t3724705E3C6E74096502E2041E29482B09F05544, ___addressMode_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(GradientSettingsBridge_t3724705E3C6E74096502E2041E29482B09F05544, ___radialFocus_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(GradientSettingsBridge_t3724705E3C6E74096502E2041E29482B09F05544, ___location_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5999[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5996[3] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5997[4] = 
+{
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5998[8] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3Ec_t3D6A2F9331B03DAC48088B7A6E141BCC153BA9B3_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_t3D6A2F9331B03DAC48088B7A6E141BCC153BA9B3_StaticFields, ___U3CU3E9__5_0_1)),static_cast<int32_t>(offsetof(U3CU3Ec_t3D6A2F9331B03DAC48088B7A6E141BCC153BA9B3_StaticFields, ___U3CU3E9__5_1_2)),static_cast<int32_t>(offsetof(U3CU3Ec_t3D6A2F9331B03DAC48088B7A6E141BCC153BA9B3_StaticFields, ___U3CU3E9__6_0_3)),static_cast<int32_t>(offsetof(U3CU3Ec_t3D6A2F9331B03DAC48088B7A6E141BCC153BA9B3_StaticFields, ___U3CU3E9__6_1_4)),static_cast<int32_t>(offsetof(U3CU3Ec_t3D6A2F9331B03DAC48088B7A6E141BCC153BA9B3_StaticFields, ___U3CU3E9__6_2_5)),static_cast<int32_t>(offsetof(U3CU3Ec_t3D6A2F9331B03DAC48088B7A6E141BCC153BA9B3_StaticFields, ___U3CU3E9__6_3_6)),static_cast<int32_t>(offsetof(U3CU3Ec_t3D6A2F9331B03DAC48088B7A6E141BCC153BA9B3_StaticFields, ___U3CU3E9__6_4_7)),};
