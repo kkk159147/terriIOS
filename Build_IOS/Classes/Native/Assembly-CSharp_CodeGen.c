@@ -226,8 +226,8 @@ extern void BallController_UpdateByTouchInput_m719E023D8ED2C62AA03CB578E05E32FB4
 extern void BallController_ThrowBall_mDD245CE1A81E0C3E3F0053B82F373F829D006EFA (void);
 // 0x0000006B System.Void BallController::.ctor()
 extern void BallController__ctor_m45FE38C6CE24E904FB9E4EB739FA58146E827F13 (void);
-// 0x0000006C System.Void Capture::OnCaptureButtonClick()
-extern void Capture_OnCaptureButtonClick_mFC0695DCC7DB0B4A198C9BE55F2AFC28E3648066 (void);
+// 0x0000006C System.Void Capture::OnClickCaptureButton()
+extern void Capture_OnClickCaptureButton_mDAAF2AFC1BA12437042DEFF65EDA0A4A88DD1A90 (void);
 // 0x0000006D System.Collections.IEnumerator Capture::Screenshot()
 extern void Capture_Screenshot_m35B3AB6E33BA020B11C8E48E021DE4F29F2EE50D (void);
 // 0x0000006E System.Void Capture::OpenAppSetting()
@@ -922,157 +922,159 @@ extern void U3CU3Ec__ctor_mEE5903EC78B73B92CB9633B81E7EFC1CE9DC807D (void);
 extern void U3CU3Ec_U3CSubscribeU3Eb__9_0_mBBC57B82E6BC03C2C18154669F44930594485F91 (void);
 // 0x000001D3 System.Void VibrationTest::OnClick()
 extern void VibrationTest_OnClick_m187B6C3389839D95829C8835705A861D4FE34363 (void);
-// 0x000001D4 System.Void VibrationTest::.ctor()
+// 0x000001D4 System.Void VibrationTest::Awake()
+extern void VibrationTest_Awake_m93F863EBF226BA67821CA88926F58744B02FA1C5 (void);
+// 0x000001D5 System.Void VibrationTest::.ctor()
 extern void VibrationTest__ctor_mA22BDED37A9B28B253179AA42214AA0CF9B24240 (void);
-// 0x000001D5 System.Void GG.Infrastructure.Utils.Swipe.DirectionId::.ctor(System.String,UnityEngine.Vector3)
+// 0x000001D6 System.Void GG.Infrastructure.Utils.Swipe.DirectionId::.ctor(System.String,UnityEngine.Vector3)
 extern void DirectionId__ctor_mD0F940BDEC4B73FAA3FA790B4AD4C58FE1BD2B45 (void);
-// 0x000001D6 System.Collections.Generic.List`1<GG.Infrastructure.Utils.Swipe.DirectionId> GG.Infrastructure.Utils.Swipe.DirectionPresets::GetPresetByMode(GG.Infrastructure.Utils.Swipe.SwipeDetectionMode)
+// 0x000001D7 System.Collections.Generic.List`1<GG.Infrastructure.Utils.Swipe.DirectionId> GG.Infrastructure.Utils.Swipe.DirectionPresets::GetPresetByMode(GG.Infrastructure.Utils.Swipe.SwipeDetectionMode)
 extern void DirectionPresets_GetPresetByMode_mF5BAF9577148FC19353DD053684C008D4AAF2BE9 (void);
-// 0x000001D7 System.Collections.Generic.List`1<GG.Infrastructure.Utils.Swipe.DirectionId> GG.Infrastructure.Utils.Swipe.DirectionPresets::HexagonalVerticalPreset()
+// 0x000001D8 System.Collections.Generic.List`1<GG.Infrastructure.Utils.Swipe.DirectionId> GG.Infrastructure.Utils.Swipe.DirectionPresets::HexagonalVerticalPreset()
 extern void DirectionPresets_HexagonalVerticalPreset_mE4B004ED2C7A82E14555537F7826FD825DE03E3D (void);
-// 0x000001D8 System.Collections.Generic.List`1<GG.Infrastructure.Utils.Swipe.DirectionId> GG.Infrastructure.Utils.Swipe.DirectionPresets::HexagonalHorizontalPreset()
+// 0x000001D9 System.Collections.Generic.List`1<GG.Infrastructure.Utils.Swipe.DirectionId> GG.Infrastructure.Utils.Swipe.DirectionPresets::HexagonalHorizontalPreset()
 extern void DirectionPresets_HexagonalHorizontalPreset_mF22E786D80E3B26D1259812E58DD0FA6A63E7F5E (void);
-// 0x000001D9 System.Collections.Generic.List`1<GG.Infrastructure.Utils.Swipe.DirectionId> GG.Infrastructure.Utils.Swipe.DirectionPresets::EightSidesPreset()
+// 0x000001DA System.Collections.Generic.List`1<GG.Infrastructure.Utils.Swipe.DirectionId> GG.Infrastructure.Utils.Swipe.DirectionPresets::EightSidesPreset()
 extern void DirectionPresets_EightSidesPreset_m0650FFDBA2EB3589771EB95CA45A116C8426FA87 (void);
-// 0x000001DA System.Collections.Generic.List`1<GG.Infrastructure.Utils.Swipe.DirectionId> GG.Infrastructure.Utils.Swipe.DirectionPresets::FourSidesPreset()
+// 0x000001DB System.Collections.Generic.List`1<GG.Infrastructure.Utils.Swipe.DirectionId> GG.Infrastructure.Utils.Swipe.DirectionPresets::FourSidesPreset()
 extern void DirectionPresets_FourSidesPreset_m1A377092933228C3B78AEC5B0563527A01AD2169 (void);
-// 0x000001DB System.Collections.Generic.List`1<GG.Infrastructure.Utils.Swipe.DirectionId> GG.Infrastructure.Utils.Swipe.DirectionPresets::UpDownPreset()
+// 0x000001DC System.Collections.Generic.List`1<GG.Infrastructure.Utils.Swipe.DirectionId> GG.Infrastructure.Utils.Swipe.DirectionPresets::UpDownPreset()
 extern void DirectionPresets_UpDownPreset_m6E49F4120BAC755F3C8F293CD42032AD48B7AAA3 (void);
-// 0x000001DC System.Collections.Generic.List`1<GG.Infrastructure.Utils.Swipe.DirectionId> GG.Infrastructure.Utils.Swipe.DirectionPresets::LeftRightPreset()
+// 0x000001DD System.Collections.Generic.List`1<GG.Infrastructure.Utils.Swipe.DirectionId> GG.Infrastructure.Utils.Swipe.DirectionPresets::LeftRightPreset()
 extern void DirectionPresets_LeftRightPreset_m361CC66AAEF337B5623049C94765558F3705EEE8 (void);
-// 0x000001DD System.Void GG.Infrastructure.Utils.Swipe.Errors::.ctor()
+// 0x000001DE System.Void GG.Infrastructure.Utils.Swipe.Errors::.ctor()
 extern void Errors__ctor_mF754DB4F487D484E891A8CADBB7A9F53679DFA05 (void);
-// 0x000001DE System.Void GG.Infrastructure.Utils.Swipe.SwipeListenerEvent::.ctor()
+// 0x000001DF System.Void GG.Infrastructure.Utils.Swipe.SwipeListenerEvent::.ctor()
 extern void SwipeListenerEvent__ctor_m7354FB095FCC5615C9D83203FEE9983FEE4F5DA2 (void);
-// 0x000001DF GG.Infrastructure.Utils.Swipe.SwipeDetectionMode GG.Infrastructure.Utils.Swipe.SwipeListener::get_SwipeDetectionMode()
+// 0x000001E0 GG.Infrastructure.Utils.Swipe.SwipeDetectionMode GG.Infrastructure.Utils.Swipe.SwipeListener::get_SwipeDetectionMode()
 extern void SwipeListener_get_SwipeDetectionMode_m992A1705D5328B0C438FFAACDD3CB176EF545C5A (void);
-// 0x000001E0 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::set_SwipeDetectionMode(GG.Infrastructure.Utils.Swipe.SwipeDetectionMode)
+// 0x000001E1 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::set_SwipeDetectionMode(GG.Infrastructure.Utils.Swipe.SwipeDetectionMode)
 extern void SwipeListener_set_SwipeDetectionMode_mA31C7E98B45713AC7AF2455694A492C351FDBD0B (void);
-// 0x000001E1 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::SetDetectionMode(System.Collections.Generic.List`1<GG.Infrastructure.Utils.Swipe.DirectionId>)
+// 0x000001E2 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::SetDetectionMode(System.Collections.Generic.List`1<GG.Infrastructure.Utils.Swipe.DirectionId>)
 extern void SwipeListener_SetDetectionMode_m510EC69F41A799D05FA37A9827590DF10348609F (void);
-// 0x000001E2 System.Single GG.Infrastructure.Utils.Swipe.SwipeListener::get_Sensetivity()
+// 0x000001E3 System.Single GG.Infrastructure.Utils.Swipe.SwipeListener::get_Sensetivity()
 extern void SwipeListener_get_Sensetivity_mC4CA842171A5B11252BDED95E19EF581031054E4 (void);
-// 0x000001E3 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::set_Sensetivity(System.Single)
+// 0x000001E4 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::set_Sensetivity(System.Single)
 extern void SwipeListener_set_Sensetivity_m39CD03224D490D2FE1904E12C731AF6800D6C8F6 (void);
-// 0x000001E4 System.Boolean GG.Infrastructure.Utils.Swipe.SwipeListener::get_ContinuousDetection()
+// 0x000001E5 System.Boolean GG.Infrastructure.Utils.Swipe.SwipeListener::get_ContinuousDetection()
 extern void SwipeListener_get_ContinuousDetection_mC6D9AFD0F1E5C5ED7E0E1EF48244A6EC875EFD90 (void);
-// 0x000001E5 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::set_ContinuousDetection(System.Boolean)
+// 0x000001E6 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::set_ContinuousDetection(System.Boolean)
 extern void SwipeListener_set_ContinuousDetection_mFA97F0B439864FD128544DF8650E97015661ED01 (void);
-// 0x000001E6 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::Awake()
+// 0x000001E7 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::Awake()
 extern void SwipeListener_Awake_m35908DB0FC622FEA3CAAC5310E0EA3A24EAEA070 (void);
-// 0x000001E7 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::Start()
+// 0x000001E8 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::Start()
 extern void SwipeListener_Start_mB16959D5929B5F895732BC395A2864AFF297E7A7 (void);
-// 0x000001E8 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::Update()
+// 0x000001E9 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::Update()
 extern void SwipeListener_Update_mB15DB74811B0F1BB2E42D564AF96B52D83230525 (void);
-// 0x000001E9 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::UpdateSensetivity()
+// 0x000001EA System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::UpdateSensetivity()
 extern void SwipeListener_UpdateSensetivity_m305525F60C8853F1536414FF0AD7ADE292515FA4 (void);
-// 0x000001EA System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::CheckSwipeCancellation()
+// 0x000001EB System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::CheckSwipeCancellation()
 extern void SwipeListener_CheckSwipeCancellation_m06B9AC7E5354AE5E53879461F4086C8D013494CE (void);
-// 0x000001EB System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::InitSwipe(UnityEngine.Vector3)
+// 0x000001EC System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::InitSwipe(UnityEngine.Vector3)
 extern void SwipeListener_InitSwipe_mAADAF03303E20AD9055E3ABC0FB4190F5C218E88 (void);
-// 0x000001EC System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::CheckSwipe(UnityEngine.Vector3)
+// 0x000001ED System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::CheckSwipe(UnityEngine.Vector3)
 extern void SwipeListener_CheckSwipe_m673932F35A2DC20A3AECCB2A68BD61DCB78F93FE (void);
-// 0x000001ED System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::SampleSwipeStart(UnityEngine.Vector3)
+// 0x000001EE System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::SampleSwipeStart(UnityEngine.Vector3)
 extern void SwipeListener_SampleSwipeStart_m3A3B7787023316BDB3BD1A785EBFBC04480799FD (void);
-// 0x000001EE System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::Swipe(System.String)
+// 0x000001EF System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::Swipe(System.String)
 extern void SwipeListener_Swipe_m1D211ADCE4093B7DD1AA4AE71E15CE6A40E7A1FC (void);
-// 0x000001EF System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::ExecuteGesture(System.String)
+// 0x000001F0 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::ExecuteGesture(System.String)
 extern void SwipeListener_ExecuteGesture_mA7A99A3BE6D56B8D6D850DC5EE237BCF5B48B4E8 (void);
-// 0x000001F0 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::SetGestureGuide(System.String,UnityEngine.GameObject,System.Boolean)
+// 0x000001F1 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::SetGestureGuide(System.String,UnityEngine.GameObject,System.Boolean)
 extern void SwipeListener_SetGestureGuide_m28D15A8F8CBB8DF1A57C032B6D951F1CCE3FE382 (void);
-// 0x000001F1 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::ResetGestureGuide()
+// 0x000001F2 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::ResetGestureGuide()
 extern void SwipeListener_ResetGestureGuide_m183769B762CB488266E457D346881F37A9FD5BEB (void);
-// 0x000001F2 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::DegreeCheck(System.Single,System.Single)
+// 0x000001F3 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::DegreeCheck(System.Single,System.Single)
 extern void SwipeListener_DegreeCheck_m130320DD4428BFE0A6B395F224216C8EA021A221 (void);
-// 0x000001F3 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::LastGestureCheck()
+// 0x000001F4 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::LastGestureCheck()
 extern void SwipeListener_LastGestureCheck_m668A9109C26A53A5B3B075A7047276A1B25312B1 (void);
-// 0x000001F4 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::OnEnable()
+// 0x000001F5 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::OnEnable()
 extern void SwipeListener_OnEnable_mB9444E9740E24E8DB402E1A6310E103B694A6F9B (void);
-// 0x000001F5 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::OnDisable()
+// 0x000001F6 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::OnDisable()
 extern void SwipeListener_OnDisable_m671FAEB055579DE44D6118BE7D2EB7815E4D000A (void);
-// 0x000001F6 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::Clear()
+// 0x000001F7 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::Clear()
 extern void SwipeListener_Clear_m4363535A6DE928783EA6EE30FB116F455F93EBF7 (void);
-// 0x000001F7 System.Collections.IEnumerator GG.Infrastructure.Utils.Swipe.SwipeListener::PressCheck()
+// 0x000001F8 System.Collections.IEnumerator GG.Infrastructure.Utils.Swipe.SwipeListener::PressCheck()
 extern void SwipeListener_PressCheck_m9FBEA1D22587C1F24A40120E8D257B315092C42A (void);
-// 0x000001F8 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::.ctor()
+// 0x000001F9 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener::.ctor()
 extern void SwipeListener__ctor_mA3DDDD539395091CA7310FDE62C82B7CEA04ADB4 (void);
-// 0x000001F9 System.Void GG.Infrastructure.Utils.Swipe.SwipeListener/<PressCheck>d__50::.ctor(System.Int32)
+// 0x000001FA System.Void GG.Infrastructure.Utils.Swipe.SwipeListener/<PressCheck>d__50::.ctor(System.Int32)
 extern void U3CPressCheckU3Ed__50__ctor_m708CEFE39F81F43C516542A0D731983B8AFC4602 (void);
-// 0x000001FA System.Void GG.Infrastructure.Utils.Swipe.SwipeListener/<PressCheck>d__50::System.IDisposable.Dispose()
+// 0x000001FB System.Void GG.Infrastructure.Utils.Swipe.SwipeListener/<PressCheck>d__50::System.IDisposable.Dispose()
 extern void U3CPressCheckU3Ed__50_System_IDisposable_Dispose_mD803A5285E0FB329C8A0AD21AC21A4B0C9BF4AD5 (void);
-// 0x000001FB System.Boolean GG.Infrastructure.Utils.Swipe.SwipeListener/<PressCheck>d__50::MoveNext()
+// 0x000001FC System.Boolean GG.Infrastructure.Utils.Swipe.SwipeListener/<PressCheck>d__50::MoveNext()
 extern void U3CPressCheckU3Ed__50_MoveNext_m2991693722C7C3F66C5E7408644D4AA0777C822B (void);
-// 0x000001FC System.Object GG.Infrastructure.Utils.Swipe.SwipeListener/<PressCheck>d__50::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000001FD System.Object GG.Infrastructure.Utils.Swipe.SwipeListener/<PressCheck>d__50::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CPressCheckU3Ed__50_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE03F78E8AABBE4B40E2D61028203143337FD514E (void);
-// 0x000001FD System.Void GG.Infrastructure.Utils.Swipe.SwipeListener/<PressCheck>d__50::System.Collections.IEnumerator.Reset()
+// 0x000001FE System.Void GG.Infrastructure.Utils.Swipe.SwipeListener/<PressCheck>d__50::System.Collections.IEnumerator.Reset()
 extern void U3CPressCheckU3Ed__50_System_Collections_IEnumerator_Reset_mC284701B8241C0057DF69762E8CB364ED4DEE361 (void);
-// 0x000001FE System.Object GG.Infrastructure.Utils.Swipe.SwipeListener/<PressCheck>d__50::System.Collections.IEnumerator.get_Current()
+// 0x000001FF System.Object GG.Infrastructure.Utils.Swipe.SwipeListener/<PressCheck>d__50::System.Collections.IEnumerator.get_Current()
 extern void U3CPressCheckU3Ed__50_System_Collections_IEnumerator_get_Current_m1720245F9AD7641F7C07FF6C283D97757D8D57D6 (void);
-// 0x000001FF System.Void GG.Infrastructure.Utils.Swipe.Vector3Event::.ctor()
+// 0x00000200 System.Void GG.Infrastructure.Utils.Swipe.Vector3Event::.ctor()
 extern void Vector3Event__ctor_m4FEB85BCB7EBFC03F24EA17BE60A02F5500A4844 (void);
-// 0x00000200 System.Void GG.Infrastructure.Utils.Swipe.SwipeVectorEvent::.ctor()
+// 0x00000201 System.Void GG.Infrastructure.Utils.Swipe.SwipeVectorEvent::.ctor()
 extern void SwipeVectorEvent__ctor_m1D5FB4C356E12E51EFD21D873DD6BF0E448CD8B7 (void);
-// 0x00000201 System.Void GG.Infrastructure.Utils.Swipe.SwipesToVectorEvents::Start()
+// 0x00000202 System.Void GG.Infrastructure.Utils.Swipe.SwipesToVectorEvents::Start()
 extern void SwipesToVectorEvents_Start_m087FA6BC4EA51DD436245EE3362ABFB6D8960310 (void);
-// 0x00000202 System.Void GG.Infrastructure.Utils.Swipe.SwipesToVectorEvents::OnEnable()
+// 0x00000203 System.Void GG.Infrastructure.Utils.Swipe.SwipesToVectorEvents::OnEnable()
 extern void SwipesToVectorEvents_OnEnable_m5FB0C67BD2FB9D0D7808F17998641CF52F5F0E26 (void);
-// 0x00000203 System.Void GG.Infrastructure.Utils.Swipe.SwipesToVectorEvents::OnDisable()
+// 0x00000204 System.Void GG.Infrastructure.Utils.Swipe.SwipesToVectorEvents::OnDisable()
 extern void SwipesToVectorEvents_OnDisable_m246ED984C0BDA031EFF9FD094E65D056A8CE7169 (void);
-// 0x00000204 System.Void GG.Infrastructure.Utils.Swipe.SwipesToVectorEvents::OnSwipeHandler(System.String)
+// 0x00000205 System.Void GG.Infrastructure.Utils.Swipe.SwipesToVectorEvents::OnSwipeHandler(System.String)
 extern void SwipesToVectorEvents_OnSwipeHandler_m7B6E4A0026CFC0E14666FC1CE33089BADAAF8DC9 (void);
-// 0x00000205 System.Void GG.Infrastructure.Utils.Swipe.SwipesToVectorEvents::.ctor()
+// 0x00000206 System.Void GG.Infrastructure.Utils.Swipe.SwipesToVectorEvents::.ctor()
 extern void SwipesToVectorEvents__ctor_m3D57C254567816343194FAC970F4673A323C0FEB (void);
-// 0x00000206 System.Void GG.Infrastructure.Utils.Swipe.VectorToDirection::.ctor(System.Collections.Generic.List`1<GG.Infrastructure.Utils.Swipe.DirectionId>)
+// 0x00000207 System.Void GG.Infrastructure.Utils.Swipe.VectorToDirection::.ctor(System.Collections.Generic.List`1<GG.Infrastructure.Utils.Swipe.DirectionId>)
 extern void VectorToDirection__ctor_m76CFE5A0019173407294DAF5BFD07FF9E07BE189 (void);
-// 0x00000207 System.String GG.Infrastructure.Utils.Swipe.VectorToDirection::GetSwipeId(UnityEngine.Vector3)
+// 0x00000208 System.String GG.Infrastructure.Utils.Swipe.VectorToDirection::GetSwipeId(UnityEngine.Vector3)
 extern void VectorToDirection_GetSwipeId_m94826949B49BBD261983AFB31B2C9E1FB833673C (void);
-// 0x00000208 System.Object[] UnityQuickSheet.ConvertExt::Split(System.String)
+// 0x00000209 System.Object[] UnityQuickSheet.ConvertExt::Split(System.String)
 extern void ConvertExt_Split_mD587E1FF2D80C39015D797BE8A79D1DB52994E6D (void);
-// 0x00000209 System.Single[] UnityQuickSheet.ConvertExt::ToSingleArray(System.String)
+// 0x0000020A System.Single[] UnityQuickSheet.ConvertExt::ToSingleArray(System.String)
 extern void ConvertExt_ToSingleArray_m7B0C47B43E061D745ED66672E8DF74D0CFBD5639 (void);
-// 0x0000020A System.Double[] UnityQuickSheet.ConvertExt::ToDoubleArray(System.String)
+// 0x0000020B System.Double[] UnityQuickSheet.ConvertExt::ToDoubleArray(System.String)
 extern void ConvertExt_ToDoubleArray_mB58751764FEBF2F77866E18578D1957648965F88 (void);
-// 0x0000020B System.Int16[] UnityQuickSheet.ConvertExt::ToInt16Array(System.String)
+// 0x0000020C System.Int16[] UnityQuickSheet.ConvertExt::ToInt16Array(System.String)
 extern void ConvertExt_ToInt16Array_mCE17C33C7E559AF8691CA57B3E1AEF4499F63739 (void);
-// 0x0000020C System.Int32[] UnityQuickSheet.ConvertExt::ToInt32Array(System.String)
+// 0x0000020D System.Int32[] UnityQuickSheet.ConvertExt::ToInt32Array(System.String)
 extern void ConvertExt_ToInt32Array_mB28C1ED25EA08EFFAC7A3C7392BD22D2B32C2792 (void);
-// 0x0000020D System.Int64[] UnityQuickSheet.ConvertExt::ToInt64Array(System.String)
+// 0x0000020E System.Int64[] UnityQuickSheet.ConvertExt::ToInt64Array(System.String)
 extern void ConvertExt_ToInt64Array_mE1FC634A07320CDE9194CEA0A7A7329F4263317B (void);
-// 0x0000020E System.String[] UnityQuickSheet.ConvertExt::ToStringArray(System.String)
+// 0x0000020F System.String[] UnityQuickSheet.ConvertExt::ToStringArray(System.String)
 extern void ConvertExt_ToStringArray_m3970B58FBAF76FBFC54F66A33A5064169D7A8993 (void);
-// 0x0000020F System.Void UnityQuickSheet.ConvertExt::.ctor()
+// 0x00000210 System.Void UnityQuickSheet.ConvertExt::.ctor()
 extern void ConvertExt__ctor_m9772155ECEC76CCAE3BA7EBC1C3D89A521785C8E (void);
-// 0x00000210 System.Void UnityQuickSheet.ConvertExt/<>c::.cctor()
+// 0x00000211 System.Void UnityQuickSheet.ConvertExt/<>c::.cctor()
 extern void U3CU3Ec__cctor_mC0C7026489170937631CDF995250EFB2F2302DC5 (void);
-// 0x00000211 System.Void UnityQuickSheet.ConvertExt/<>c::.ctor()
+// 0x00000212 System.Void UnityQuickSheet.ConvertExt/<>c::.ctor()
 extern void U3CU3Ec__ctor_m9E404223E53A1DDCD36F87C6B279F7233515C2D4 (void);
-// 0x00000212 System.Boolean UnityQuickSheet.ConvertExt/<>c::<Split>b__0_0(System.Char)
+// 0x00000213 System.Boolean UnityQuickSheet.ConvertExt/<>c::<Split>b__0_0(System.Char)
 extern void U3CU3Ec_U3CSplitU3Eb__0_0_m899AEEECFB751D7B2B105DB0C37A205560F7D0CE (void);
-// 0x00000213 System.Object UnityQuickSheet.ConvertExt/<>c::<ToSingleArray>b__1_0(System.Object)
+// 0x00000214 System.Object UnityQuickSheet.ConvertExt/<>c::<ToSingleArray>b__1_0(System.Object)
 extern void U3CU3Ec_U3CToSingleArrayU3Eb__1_0_mFAADE96DA80F62CB070C4D0098E62F4F8B36B621 (void);
-// 0x00000214 System.Single UnityQuickSheet.ConvertExt/<>c::<ToSingleArray>b__1_1(System.Object)
+// 0x00000215 System.Single UnityQuickSheet.ConvertExt/<>c::<ToSingleArray>b__1_1(System.Object)
 extern void U3CU3Ec_U3CToSingleArrayU3Eb__1_1_mA2A1B41DEFB2A9BC7F9EDAD67C0813BD5D07FBCD (void);
-// 0x00000215 System.Object UnityQuickSheet.ConvertExt/<>c::<ToDoubleArray>b__2_0(System.Object)
+// 0x00000216 System.Object UnityQuickSheet.ConvertExt/<>c::<ToDoubleArray>b__2_0(System.Object)
 extern void U3CU3Ec_U3CToDoubleArrayU3Eb__2_0_m4BC537F544CB0B92EEEDB83CF2DA48CFE913D93F (void);
-// 0x00000216 System.Double UnityQuickSheet.ConvertExt/<>c::<ToDoubleArray>b__2_1(System.Object)
+// 0x00000217 System.Double UnityQuickSheet.ConvertExt/<>c::<ToDoubleArray>b__2_1(System.Object)
 extern void U3CU3Ec_U3CToDoubleArrayU3Eb__2_1_m84046C8370984B340C175A9E12F9D707022EE363 (void);
-// 0x00000217 System.Object UnityQuickSheet.ConvertExt/<>c::<ToInt16Array>b__3_0(System.Object)
+// 0x00000218 System.Object UnityQuickSheet.ConvertExt/<>c::<ToInt16Array>b__3_0(System.Object)
 extern void U3CU3Ec_U3CToInt16ArrayU3Eb__3_0_mDEBCEC871781B36930064CF7FEC7BA658A9C2E35 (void);
-// 0x00000218 System.Int16 UnityQuickSheet.ConvertExt/<>c::<ToInt16Array>b__3_1(System.Object)
+// 0x00000219 System.Int16 UnityQuickSheet.ConvertExt/<>c::<ToInt16Array>b__3_1(System.Object)
 extern void U3CU3Ec_U3CToInt16ArrayU3Eb__3_1_m258DFABD2E19D4544D723F51873CD589285228B3 (void);
-// 0x00000219 System.Object UnityQuickSheet.ConvertExt/<>c::<ToInt32Array>b__4_0(System.Object)
+// 0x0000021A System.Object UnityQuickSheet.ConvertExt/<>c::<ToInt32Array>b__4_0(System.Object)
 extern void U3CU3Ec_U3CToInt32ArrayU3Eb__4_0_m45D45E5953842FD6F3E3A8B4388061F69DE1D1FD (void);
-// 0x0000021A System.Int32 UnityQuickSheet.ConvertExt/<>c::<ToInt32Array>b__4_1(System.Object)
+// 0x0000021B System.Int32 UnityQuickSheet.ConvertExt/<>c::<ToInt32Array>b__4_1(System.Object)
 extern void U3CU3Ec_U3CToInt32ArrayU3Eb__4_1_m2BCDB3739D8BDECE8D9C5A4E30BA3FC9C35D1266 (void);
-// 0x0000021B System.Object UnityQuickSheet.ConvertExt/<>c::<ToInt64Array>b__5_0(System.Object)
+// 0x0000021C System.Object UnityQuickSheet.ConvertExt/<>c::<ToInt64Array>b__5_0(System.Object)
 extern void U3CU3Ec_U3CToInt64ArrayU3Eb__5_0_mD143FB9020A80AC91E71C7771A1FCA6F5C838AC7 (void);
-// 0x0000021C System.Int64 UnityQuickSheet.ConvertExt/<>c::<ToInt64Array>b__5_1(System.Object)
+// 0x0000021D System.Int64 UnityQuickSheet.ConvertExt/<>c::<ToInt64Array>b__5_1(System.Object)
 extern void U3CU3Ec_U3CToInt64ArrayU3Eb__5_1_m5A23054172F476C72F8D0355DDA9995ECAF348E9 (void);
-// 0x0000021D System.Object UnityQuickSheet.ConvertExt/<>c::<ToStringArray>b__6_0(System.Object)
+// 0x0000021E System.Object UnityQuickSheet.ConvertExt/<>c::<ToStringArray>b__6_0(System.Object)
 extern void U3CU3Ec_U3CToStringArrayU3Eb__6_0_mB79C6559D1043C78A7E4E8A82E144833E16B1F2C (void);
-// 0x0000021E System.String UnityQuickSheet.ConvertExt/<>c::<ToStringArray>b__6_1(System.Object)
+// 0x0000021F System.String UnityQuickSheet.ConvertExt/<>c::<ToStringArray>b__6_1(System.Object)
 extern void U3CU3Ec_U3CToStringArrayU3Eb__6_1_mE15F89CC0FDBBC5CE67B20204376310A7C919780 (void);
-static Il2CppMethodPointer s_methodPointers[542] = 
+static Il2CppMethodPointer s_methodPointers[543] = 
 {
 	AttendanceTable_OnEnable_m57FFCB80C4589DD51AFC7A4690CE27E0D43F504E,
 	AttendanceTable__ctor_m9E5A7A79AC2C9593517CD91E43B6C01AA1432E19,
@@ -1181,7 +1183,7 @@ static Il2CppMethodPointer s_methodPointers[542] =
 	BallController_UpdateByTouchInput_m719E023D8ED2C62AA03CB578E05E32FB41318AB7,
 	BallController_ThrowBall_mDD245CE1A81E0C3E3F0053B82F373F829D006EFA,
 	BallController__ctor_m45FE38C6CE24E904FB9E4EB739FA58146E827F13,
-	Capture_OnCaptureButtonClick_mFC0695DCC7DB0B4A198C9BE55F2AFC28E3648066,
+	Capture_OnClickCaptureButton_mDAAF2AFC1BA12437042DEFF65EDA0A4A88DD1A90,
 	Capture_Screenshot_m35B3AB6E33BA020B11C8E48E021DE4F29F2EE50D,
 	Capture_OpenAppSetting_mEF8293D577B53EFCBED271CEB3C9691B7AC238F0,
 	Capture_DownloadPNG_m8B88603D4FC4F503230ECF1751920DC2EAFABBE2,
@@ -1541,6 +1543,7 @@ static Il2CppMethodPointer s_methodPointers[542] =
 	U3CU3Ec__ctor_mEE5903EC78B73B92CB9633B81E7EFC1CE9DC807D,
 	U3CU3Ec_U3CSubscribeU3Eb__9_0_mBBC57B82E6BC03C2C18154669F44930594485F91,
 	VibrationTest_OnClick_m187B6C3389839D95829C8835705A861D4FE34363,
+	VibrationTest_Awake_m93F863EBF226BA67821CA88926F58744B02FA1C5,
 	VibrationTest__ctor_mA22BDED37A9B28B253179AA42214AA0CF9B24240,
 	DirectionId__ctor_mD0F940BDEC4B73FAA3FA790B4AD4C58FE1BD2B45,
 	DirectionPresets_GetPresetByMode_mF5BAF9577148FC19353DD053684C008D4AAF2BE9,
@@ -1617,7 +1620,7 @@ static Il2CppMethodPointer s_methodPointers[542] =
 	U3CU3Ec_U3CToStringArrayU3Eb__6_0_mB79C6559D1043C78A7E4E8A82E144833E16B1F2C,
 	U3CU3Ec_U3CToStringArrayU3Eb__6_1_mE15F89CC0FDBBC5CE67B20204376310A7C919780,
 };
-static const int32_t s_InvokerIndices[542] = 
+static const int32_t s_InvokerIndices[543] = 
 {
 	4843,
 	4843,
@@ -2087,6 +2090,7 @@ static const int32_t s_InvokerIndices[542] =
 	3851,
 	4843,
 	4843,
+	4843,
 	2249,
 	6972,
 	7220,
@@ -2244,7 +2248,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	542,
+	543,
 	s_methodPointers,
 	0,
 	NULL,

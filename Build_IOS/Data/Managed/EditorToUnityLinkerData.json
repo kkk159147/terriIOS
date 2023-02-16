@@ -635,6 +635,15 @@
             ]
         },
         {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Cubemap",
+            "fullManagedTypeName": "UnityEngine.Cubemap",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/01. Scene/InventoryTestScene.unity"
+            ]
+        },
+        {
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.EventSystems.EventSystem",
@@ -903,6 +912,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "VibrationManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "VibrationTest",
             "moduleName": "",
             "usedInScenes": []
         }
