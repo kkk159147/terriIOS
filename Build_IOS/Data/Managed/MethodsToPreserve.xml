@@ -47,13 +47,20 @@
 		</type>
 		<type fullname="UIMissionBoard">
 			<method name="OnClickALLClearMissionButton"/>
-			<method name="OnClickALLClearMissionButton"/>
 		</type>
 		<type fullname="UIMissionCell">
 			<method name="OnClickCellButton"/>
 		</type>
 		<type fullname="UIPuppySkillCell">
 			<method name="OnClickCell"/>
+		</type>
+		<type fullname="UISettingBoard">
+			<method name="BgmButtonChanged"/>
+			<method name="BgmButtonChanged"/>
+			<method name="EfxButtonChanged"/>
+			<method name="EfxButtonChanged"/>
+			<method name="VibratButtonChanged"/>
+			<method name="VibratButtonChanged"/>
 		</type>
 		<type fullname="UISuppliesCell">
 			<method name="OnClickCell"/>

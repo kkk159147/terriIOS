@@ -2,9 +2,9 @@
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="AttendanceTableData" preserve="nothing" serialized="true"/>
 		<type fullname="ClothesTableData" preserve="nothing" serialized="true"/>
+		<type fullname="DailyMissionTableData" preserve="nothing" serialized="true"/>
 		<type fullname="FoodTableData" preserve="nothing" serialized="true"/>
 		<type fullname="GG.Infrastructure.Utils.Swipe.SwipeListenerEvent" preserve="nothing" serialized="true"/>
-		<type fullname="MissionTableData" preserve="nothing" serialized="true"/>
 		<type fullname="PuppySkillTableData" preserve="nothing" serialized="true"/>
 		<type fullname="SuppliesTableData" preserve="nothing" serialized="true"/>
 	</assembly>
@@ -50,5 +50,6 @@
 		<type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true"/>
 	</assembly>
 </linker>

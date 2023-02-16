@@ -4,6 +4,7 @@
 		<type fullname="ButtonSoundPlayer" preserve="nothing"/>
 		<type fullname="Capture" preserve="nothing"/>
 		<type fullname="ClothesTable" preserve="nothing"/>
+		<type fullname="DailyMissionTable" preserve="nothing"/>
 		<type fullname="EachSound" preserve="nothing"/>
 		<type fullname="FoodTable" preserve="nothing"/>
 		<type fullname="GameManager" preserve="nothing"/>
@@ -11,7 +12,6 @@
 		<type fullname="GG.Infrastructure.Utils.Swipe.SwipeListener" preserve="nothing"/>
 		<type fullname="InGameCanvas" preserve="nothing"/>
 		<type fullname="LocalTableManager" preserve="nothing"/>
-		<type fullname="MissionTable" preserve="nothing"/>
 		<type fullname="PopupManager" preserve="nothing"/>
 		<type fullname="PopupManagerTest" preserve="nothing"/>
 		<type fullname="PuppySkillTable" preserve="nothing"/>
@@ -37,6 +37,7 @@
 		<type fullname="UIMissionCell" preserve="nothing"/>
 		<type fullname="UIPuppySkillBoard" preserve="nothing"/>
 		<type fullname="UIPuppySkillCell" preserve="nothing"/>
+		<type fullname="UISettingBoard" preserve="nothing"/>
 		<type fullname="UISuppliesBoard" preserve="nothing"/>
 		<type fullname="UISuppliesCell" preserve="nothing"/>
 		<type fullname="UITerriCoinIndicator" preserve="nothing"/>
@@ -77,7 +78,6 @@
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Component" preserve="nothing"/>
-		<type fullname="UnityEngine.Cubemap" preserve="nothing"/>
 		<type fullname="UnityEngine.Font" preserve="nothing"/>
 		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
 		<type fullname="UnityEngine.Light" preserve="nothing"/>
@@ -111,6 +111,7 @@
 		<type fullname="UnityEngine.UI.RawImage" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.ScrollRect" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Slider" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Toggle" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="nothing"/>
 	</assembly>
 </linker>
