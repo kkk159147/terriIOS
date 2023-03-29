@@ -11582,6 +11582,8 @@ inline void AsyncOperationHandle_1_add_Completed_mB72E06FC40EBAABFBAF0CC86388158
 }
 // System.Boolean UnityEngine.AddressableAssets.Addressables::ReleaseInstance(UnityEngine.GameObject)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Addressables_ReleaseInstance_m6673D687FF759A40D9351A6EE9666689A8770B3F (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_instance, const RuntimeMethod* method) ;
+// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationStatus UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle::get_Status()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AsyncOperationHandle_get_Status_mD5FB502808777A3C88880942DB9595C614CF9B0A (AsyncOperationHandle_t58B507DCAA6531B85FDBA6188D8E1F7DF89D3F5D* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AddressableAssets.Addressables::Release(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Addressables_Release_m0A186637EB825A9C793E94DD9D5B00842EC67589 (AsyncOperationHandle_t58B507DCAA6531B85FDBA6188D8E1F7DF89D3F5D ___0_handle, const RuntimeMethod* method) ;
 // System.Void Spawner::Spawn()
@@ -25239,7 +25241,10 @@ IL_000e:
 		//        //DownloadPercent????????? ????? ?????? ????? ?? ????.
 		//        //ex) float DownloadPercent = Handle.PercentComplete;
 		// 
-		//        Debug.Log("????? ???!");
+		//        if (Handle.Status != AsyncOperationStatus.Failed)
+		//        {
+		//            Debug.Log("????? ???!");
+		//        }
 		// 
 		//        //????? ?????? ??? ????.
 		// 
@@ -25359,13 +25364,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Spawner_U3C_ClickSpawnU3Eb__4_0_mF3B27CF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// if (Handle.Status != AsyncOperationStatus.Failed)
+		int32_t L_0;
+		L_0 = AsyncOperationHandle_get_Status_mD5FB502808777A3C88880942DB9595C614CF9B0A((&___0_Handle), NULL);
+		if ((((int32_t)L_0) == ((int32_t)2)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
 		// Debug.Log("????? ???!");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralCB332EFE9098C49920DC5B79BBFC61B643FD6B32, NULL);
+	}
+
+IL_0014:
+	{
 		// Addressables.Release(Handle);
-		AsyncOperationHandle_t58B507DCAA6531B85FDBA6188D8E1F7DF89D3F5D L_0 = ___0_Handle;
+		AsyncOperationHandle_t58B507DCAA6531B85FDBA6188D8E1F7DF89D3F5D L_1 = ___0_Handle;
 		il2cpp_codegen_runtime_class_init_inline(Addressables_tB93529ED0B034BF1A8C7830710BAA45C20A0F7D6_il2cpp_TypeInfo_var);
-		Addressables_Release_m0A186637EB825A9C793E94DD9D5B00842EC67589(L_0, NULL);
+		Addressables_Release_m0A186637EB825A9C793E94DD9D5B00842EC67589(L_1, NULL);
 		// Spawn();
 		Spawner_Spawn_m992EA9504776B40AE50865A0AB1DBFD1BA7F5956(__this, NULL);
 		// };
