@@ -1,7 +1,8 @@
 <linker>
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
-		<type fullname="Capture">
-			<method name="OnClickCaptureButton"/>
+		<type fullname="CaptureBoard">
+			<method name="SetImageCaptureEvent"/>
+			<method name="SetVideoCaptureEvent"/>
 		</type>
 		<type fullname="PopupManagerTest">
 			<method name="OnClickButton"/>
@@ -56,14 +57,6 @@
 		</type>
 		<type fullname="UIPuppySkillCell">
 			<method name="OnClickCell"/>
-		</type>
-		<type fullname="UISettingBoard">
-			<method name="BgmButtonChanged"/>
-			<method name="BgmButtonChanged"/>
-			<method name="EfxButtonChanged"/>
-			<method name="EfxButtonChanged"/>
-			<method name="VibratButtonChanged"/>
-			<method name="VibratButtonChanged"/>
 		</type>
 		<type fullname="UISuppliesCell">
 			<method name="OnClickCell"/>

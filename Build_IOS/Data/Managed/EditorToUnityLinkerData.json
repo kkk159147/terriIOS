@@ -25,7 +25,7 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Capture",
+            "fullManagedTypeName": "CaptureBoard",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -33,6 +33,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "ClothesTable",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ConcaveCollider",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -48,6 +55,13 @@
             "nativeClass": "DelayedCallManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "DOTween.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "DG.Tweening.Core.DOTweenSettings",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -113,6 +127,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "HTTPTestScripts",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "InGameCanvas",
             "moduleName": "",
             "usedInScenes": []
@@ -161,6 +182,20 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "Nosework",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Noseworking",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "PopupManager",
             "moduleName": "",
             "usedInScenes": []
@@ -175,7 +210,28 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "PuppyController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "PuppySkillTable",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "PuppyStateMachine",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "PuppyTouchHand",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -238,6 +294,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Spawner",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "StreamingManager",
             "fullManagedTypeName": "",
@@ -255,6 +318,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "TabButtons",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "testNoseWork",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -373,13 +443,6 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "UILevelIndicator",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "UIMissionBoard",
             "moduleName": "",
             "usedInScenes": []
@@ -402,13 +465,6 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UIPuppySkillCell",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UISettingBoard",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -545,6 +601,27 @@
             ]
         },
         {
+            "managedAssemblyName": "Unity.Animation.Rigging.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Animations.Rigging.MultiAimConstraint",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Animation.Rigging.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Animations.Rigging.Rig",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Animation.Rigging.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Animations.Rigging.RigBuilder",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Animator",
             "fullManagedTypeName": "UnityEngine.Animator",
@@ -591,9 +668,27 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Avatar",
+            "fullManagedTypeName": "UnityEngine.Avatar",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/01. Scene/InventoryTestScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Behaviour",
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/01. Scene/InventoryTestScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "BoxCollider",
+            "fullManagedTypeName": "UnityEngine.BoxCollider",
+            "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/01. Scene/InventoryTestScene.unity"
             ]
@@ -627,8 +722,26 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Collider",
+            "fullManagedTypeName": "UnityEngine.Collider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/01. Scene/InventoryTestScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Component",
             "fullManagedTypeName": "UnityEngine.Component",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/01. Scene/InventoryTestScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Cubemap",
+            "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/01. Scene/InventoryTestScene.unity"
@@ -695,6 +808,42 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Mesh",
+            "fullManagedTypeName": "UnityEngine.Mesh",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/01. Scene/InventoryTestScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshCollider",
+            "fullManagedTypeName": "UnityEngine.MeshCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/01. Scene/InventoryTestScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshFilter",
+            "fullManagedTypeName": "UnityEngine.MeshFilter",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/01. Scene/InventoryTestScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshRenderer",
+            "fullManagedTypeName": "UnityEngine.MeshRenderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/01. Scene/InventoryTestScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "MonoBehaviour",
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
@@ -738,6 +887,15 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Renderer",
+            "fullManagedTypeName": "UnityEngine.Renderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/01. Scene/InventoryTestScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "GraphicsSettings",
             "fullManagedTypeName": "UnityEngine.Rendering.GraphicsSettings",
             "moduleName": "Core",
@@ -748,6 +906,15 @@
             "nativeClass": "RenderSettings",
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/01. Scene/InventoryTestScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Rigidbody",
+            "fullManagedTypeName": "UnityEngine.Rigidbody",
+            "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/01. Scene/InventoryTestScene.unity"
             ]
@@ -765,6 +932,15 @@
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Shader",
             "fullManagedTypeName": "UnityEngine.Shader",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/01. Scene/InventoryTestScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "SkinnedMeshRenderer",
+            "fullManagedTypeName": "UnityEngine.SkinnedMeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/01. Scene/InventoryTestScene.unity"
@@ -888,13 +1064,6 @@
         {
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.UI.Toggle",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.UI.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.VerticalLayoutGroup",
             "moduleName": "",
             "usedInScenes": []
@@ -903,13 +1072,6 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "VibrationManager",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "VibrationTest",
             "moduleName": "",
             "usedInScenes": []
         }

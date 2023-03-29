@@ -8,9 +8,20 @@
 		<type fullname="PuppySkillTableData" preserve="nothing" serialized="true"/>
 		<type fullname="SuppliesTableData" preserve="nothing" serialized="true"/>
 	</assembly>
+	<assembly fullname="DOTween">
+		<type fullname="DG.Tweening.Core.DOTweenSettings/ModulesSetup" preserve="nothing" serialized="true"/>
+		<type fullname="DG.Tweening.Core.DOTweenSettings/SafeModeOptions" preserve="nothing" serialized="true"/>
+	</assembly>
 	<assembly fullname="UniRx">
 		<type fullname="UniRx.ReactiveProperty`1[System.Single]" preserve="nothing" serialized="true"/>
 		<type fullname="UniRx.ReactiveProperty`1[System.String]" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Unity.Animation.Rigging">
+		<type fullname="UnityEngine.Animations.Rigging.MultiAimConstraintData" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Animations.Rigging.RigLayer" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Animations.Rigging.Vector3Bool" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Animations.Rigging.WeightedTransform" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Animations.Rigging.WeightedTransformArray" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true"/>
@@ -50,6 +61,5 @@
 		<type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true"/>
 	</assembly>
 </linker>

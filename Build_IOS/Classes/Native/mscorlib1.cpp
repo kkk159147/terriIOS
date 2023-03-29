@@ -19170,6 +19170,55 @@ IL_0016:
 		return;
 	}
 }
+// System.String System.String::Concat(System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m81A40DADB89BCDB78DA8D63D6B723B0023A09A1A (RuntimeObject* ___0_arg0, RuntimeObject* ___1_arg1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = ___0_arg0;
+		if (L_0)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
+		___0_arg0 = L_1;
+	}
+
+IL_000a:
+	{
+		RuntimeObject* L_2 = ___1_arg1;
+		if (L_2)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		String_t* L_3 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
+		___1_arg1 = L_3;
+	}
+
+IL_0014:
+	{
+		RuntimeObject* L_4 = ___0_arg0;
+		NullCheck(L_4);
+		String_t* L_5;
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_4);
+		RuntimeObject* L_6 = ___1_arg1;
+		NullCheck(L_6);
+		String_t* L_7;
+		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_6);
+		String_t* L_8;
+		L_8 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_5, L_7, NULL);
+		return L_8;
+	}
+}
 // System.String System.String::Concat(System.Object,System.Object,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9DF47FC6E1F8341012CA3FF02993D372AA7A96C9 (RuntimeObject* ___0_arg0, RuntimeObject* ___1_arg1, RuntimeObject* ___2_arg2, const RuntimeMethod* method) 
 {
@@ -23430,6 +23479,15 @@ IL_000f:
 		return L_7;
 	}
 }
+// System.String System.String::TrimStart(System.Char)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_TrimStart_m210863A5E84BC22EC0487A1543D3680979DD87EE (String_t* __this, Il2CppChar ___0_trimChar, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0;
+		L_0 = String_TrimHelper_m3DAC04D0C8870DC7CD961F9D9346CF967318E8AF(__this, (Il2CppChar*)((uintptr_t)(&___0_trimChar)), 1, 0, NULL);
+		return L_0;
+	}
+}
 // System.String System.String::TrimEnd()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_TrimEnd_m25B1EA658EE07ADFED51FED61D630E5625336AB5 (String_t* __this, const RuntimeMethod* method) 
 {
@@ -26608,6 +26666,74 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02
 	}
 
 IL_000e:
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean System.String::IsNullOrWhiteSpace(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrWhiteSpace_m42E1F3B2C358068D645E46F01CF1834DC77A5A10 (String_t* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		String_t* L_0 = ___0_value;
+		if (L_0)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0005:
+	{
+		V_0 = 0;
+		goto IL_001d;
+	}
+
+IL_0009:
+	{
+		String_t* L_1 = ___0_value;
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_1, L_2, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Char_IsWhiteSpace_m02AEC6EA19513CAFC6882CFCA54C45794D2B5924(L_3, NULL);
+		if (L_4)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0019:
+	{
+		int32_t L_5 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_5, 1));
+	}
+
+IL_001d:
+	{
+		int32_t L_6 = V_0;
+		String_t* L_7 = ___0_value;
+		NullCheck(L_7);
+		int32_t L_8;
+		L_8 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_7, NULL);
+		if ((((int32_t)L_6) < ((int32_t)L_8)))
+		{
+			goto IL_0009;
+		}
+	}
 	{
 		return (bool)1;
 	}

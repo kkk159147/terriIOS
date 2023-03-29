@@ -1931,6 +1931,14 @@ struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D  : public RuntimeObje
 // System.Runtime.Remoting.Messaging.Header
 struct Header_tE9EAA72E5EE33410AC8378F656AFC9D3D17372B2  : public RuntimeObject
 {
+	// System.String System.Runtime.Remoting.Messaging.Header::HeaderNamespace
+	String_t* ___HeaderNamespace_0;
+	// System.Boolean System.Runtime.Remoting.Messaging.Header::MustUnderstand
+	bool ___MustUnderstand_1;
+	// System.String System.Runtime.Remoting.Messaging.Header::Name
+	String_t* ___Name_2;
+	// System.Object System.Runtime.Remoting.Messaging.Header::Value
+	RuntimeObject* ___Value_3;
 };
 
 // System.Runtime.Serialization.Formatters.Binary.IOUtil
@@ -1974,15 +1982,19 @@ struct InternalFE_tABC32B0010525375378D0B5756E5A35D4C17D6F7  : public RuntimeObj
 struct LogicalCallContext_t4BB407B088DB9FA68FE1EC2DB78D33F5BB4BDE9E  : public RuntimeObject
 {
 	// System.Collections.Hashtable System.Runtime.Remoting.Messaging.LogicalCallContext::m_Datastore
-	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___m_Datastore_1;
+	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___m_Datastore_2;
 	// System.Runtime.Remoting.Messaging.CallContextRemotingData System.Runtime.Remoting.Messaging.LogicalCallContext::m_RemotingData
-	CallContextRemotingData_t6094DE1BF422676032140DB78575DFF997F30A8F* ___m_RemotingData_2;
+	CallContextRemotingData_t6094DE1BF422676032140DB78575DFF997F30A8F* ___m_RemotingData_3;
 	// System.Runtime.Remoting.Messaging.CallContextSecurityData System.Runtime.Remoting.Messaging.LogicalCallContext::m_SecurityData
-	CallContextSecurityData_t8CEF0B9B660D575875D2D152543848D266958289* ___m_SecurityData_3;
+	CallContextSecurityData_t8CEF0B9B660D575875D2D152543848D266958289* ___m_SecurityData_4;
 	// System.Object System.Runtime.Remoting.Messaging.LogicalCallContext::m_HostContext
-	RuntimeObject* ___m_HostContext_4;
+	RuntimeObject* ___m_HostContext_5;
 	// System.Boolean System.Runtime.Remoting.Messaging.LogicalCallContext::m_IsCorrelationMgr
-	bool ___m_IsCorrelationMgr_5;
+	bool ___m_IsCorrelationMgr_6;
+	// System.Runtime.Remoting.Messaging.Header[] System.Runtime.Remoting.Messaging.LogicalCallContext::_sendHeaders
+	HeaderU5BU5D_t2D3F53406C749914E1FE70BE0FBFF3DA57CEAFB6* ____sendHeaders_7;
+	// System.Runtime.Remoting.Messaging.Header[] System.Runtime.Remoting.Messaging.LogicalCallContext::_recvHeaders
+	HeaderU5BU5D_t2D3F53406C749914E1FE70BE0FBFF3DA57CEAFB6* ____recvHeaders_8;
 };
 
 // System.Runtime.Serialization.LongList
@@ -11207,7 +11219,7 @@ IL_0049:
 		RuntimeObject* L_20 = V_5;
 		NullCheck(L_19);
 		bool L_21;
-		L_21 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(108 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_19, L_20);
+		L_21 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(110 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_19, L_20);
 		if (L_21)
 		{
 			goto IL_00b5;
@@ -12438,7 +12450,7 @@ IL_0038:
 		Type_t* L_17 = V_1;
 		NullCheck(L_17);
 		Type_t* L_18;
-		L_18 = VirtualFuncInvoker0< Type_t* >::Invoke(105 /* System.Type System.Type::get_BaseType() */, L_17);
+		L_18 = VirtualFuncInvoker0< Type_t* >::Invoke(107 /* System.Type System.Type::get_BaseType() */, L_17);
 		V_1 = L_18;
 	}
 
@@ -13440,7 +13452,7 @@ IL_004b:
 		RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1* L_18 = ___0_type;
 		NullCheck(L_18);
 		Type_t* L_19;
-		L_19 = VirtualFuncInvoker0< Type_t* >::Invoke(105 /* System.Type System.Type::get_BaseType() */, L_18);
+		L_19 = VirtualFuncInvoker0< Type_t* >::Invoke(107 /* System.Type System.Type::get_BaseType() */, L_18);
 		V_2 = ((RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1*)CastclassClass((RuntimeObject*)L_19, RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1_il2cpp_TypeInfo_var));
 		RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1* L_20 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1_il2cpp_TypeInfo_var);
@@ -13955,7 +13967,7 @@ IL_00e8:
 		RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1* L_66 = V_2;
 		NullCheck(L_66);
 		Type_t* L_67;
-		L_67 = VirtualFuncInvoker0< Type_t* >::Invoke(105 /* System.Type System.Type::get_BaseType() */, L_66);
+		L_67 = VirtualFuncInvoker0< Type_t* >::Invoke(107 /* System.Type System.Type::get_BaseType() */, L_66);
 		V_2 = ((RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1*)CastclassClass((RuntimeObject*)L_67, RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1_il2cpp_TypeInfo_var));
 	}
 
@@ -20929,7 +20941,7 @@ IL_002c:
 		RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1* L_8 = V_1;
 		NullCheck(L_8);
 		Type_t* L_9;
-		L_9 = VirtualFuncInvoker0< Type_t* >::Invoke(105 /* System.Type System.Type::get_BaseType() */, L_8);
+		L_9 = VirtualFuncInvoker0< Type_t* >::Invoke(107 /* System.Type System.Type::get_BaseType() */, L_8);
 		V_1 = ((RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1*)IsInstClass((RuntimeObject*)L_9, RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1_il2cpp_TypeInfo_var));
 		RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1* L_10 = V_1;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_11 = { reinterpret_cast<intptr_t> (RuntimeObject_0_0_0_var) };
