@@ -171,9 +171,9 @@ class VisualEffect;
 class WindZone; 
 namespace UI { class CanvasRenderer; } template <> void RegisterUnityClass<UI::CanvasRenderer>(const char*);
 class Collider; template <> void RegisterUnityClass<Collider>(const char*);
-class BoxCollider; template <> void RegisterUnityClass<BoxCollider>(const char*);
+class BoxCollider; 
 class CapsuleCollider; 
-class CharacterController; 
+class CharacterController; template <> void RegisterUnityClass<CharacterController>(const char*);
 class MeshCollider; template <> void RegisterUnityClass<MeshCollider>(const char*);
 class SphereCollider; 
 class TerrainCollider; 
@@ -442,8 +442,8 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<TrailRenderer>("Core");
 	//69. Transform
 	RegisterUnityClass<Transform>("Core");
-	//70. BoxCollider
-	RegisterUnityClass<BoxCollider>("Physics");
+	//70. CharacterController
+	RegisterUnityClass<CharacterController>("Physics");
 	//71. Collider
 	RegisterUnityClass<Collider>("Physics");
 	//72. MeshCollider

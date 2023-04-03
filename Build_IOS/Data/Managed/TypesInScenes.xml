@@ -1,64 +1,10 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
-		<type fullname="AttendanceTable" preserve="nothing"/>
-		<type fullname="ButtonSoundPlayer" preserve="nothing"/>
-		<type fullname="CaptureBoard" preserve="nothing"/>
-		<type fullname="ClothesTable" preserve="nothing"/>
-		<type fullname="ConcaveCollider" preserve="nothing"/>
-		<type fullname="DailyMissionTable" preserve="nothing"/>
-		<type fullname="EachSound" preserve="nothing"/>
-		<type fullname="FoodTable" preserve="nothing"/>
-		<type fullname="GameManager" preserve="nothing"/>
+		<type fullname="ADTest2" preserve="nothing"/>
 		<type fullname="GesturePrefab" preserve="nothing"/>
-		<type fullname="GG.Infrastructure.Utils.Swipe.SwipeListener" preserve="nothing"/>
-		<type fullname="HTTPTestScripts" preserve="nothing"/>
-		<type fullname="InGameCanvas" preserve="nothing"/>
-		<type fullname="LocalTableManager" preserve="nothing"/>
-		<type fullname="Nosework" preserve="nothing"/>
-		<type fullname="Noseworking" preserve="nothing"/>
-		<type fullname="PopupManager" preserve="nothing"/>
-		<type fullname="PopupManagerTest" preserve="nothing"/>
-		<type fullname="PuppyController" preserve="nothing"/>
-		<type fullname="PuppySkillTable" preserve="nothing"/>
-		<type fullname="PuppyStateMachine" preserve="nothing"/>
-		<type fullname="PuppyTouchHand" preserve="nothing"/>
-		<type fullname="SafeArea" preserve="nothing"/>
-		<type fullname="SelectTab" preserve="nothing"/>
-		<type fullname="SetContentRectSize" preserve="nothing"/>
-		<type fullname="SoundManager" preserve="nothing"/>
-		<type fullname="Spawner" preserve="nothing"/>
-		<type fullname="SuppliesTable" preserve="nothing"/>
-		<type fullname="TabButtons" preserve="nothing"/>
-		<type fullname="testNoseWork" preserve="nothing"/>
-		<type fullname="UIAlarmMessage" preserve="nothing"/>
-		<type fullname="UIAttendanceBoard" preserve="nothing"/>
-		<type fullname="UIAttendanceCell" preserve="nothing"/>
-		<type fullname="UIClothesBoard" preserve="nothing"/>
-		<type fullname="UIClothesCell" preserve="nothing"/>
-		<type fullname="UIConfirmPopup" preserve="nothing"/>
-		<type fullname="UIFirstCallMenu" preserve="nothing"/>
-		<type fullname="UIFoodBoard" preserve="nothing"/>
-		<type fullname="UIFoodCell" preserve="nothing"/>
-		<type fullname="UIHambager" preserve="nothing"/>
-		<type fullname="UIJerkyIndicator" preserve="nothing"/>
-		<type fullname="UIMissionBoard" preserve="nothing"/>
-		<type fullname="UIMissionCell" preserve="nothing"/>
-		<type fullname="UIPuppySkillBoard" preserve="nothing"/>
-		<type fullname="UIPuppySkillCell" preserve="nothing"/>
-		<type fullname="UISuppliesBoard" preserve="nothing"/>
-		<type fullname="UISuppliesCell" preserve="nothing"/>
-		<type fullname="UITerriCoinIndicator" preserve="nothing"/>
-		<type fullname="UIWhiteEffect" preserve="nothing"/>
-		<type fullname="UIYesNoPopup" preserve="nothing"/>
-		<type fullname="VibrationManager" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="DOTween">
 		<type fullname="DG.Tweening.Core.DOTweenSettings" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="Unity.Animation.Rigging">
-		<type fullname="UnityEngine.Animations.Rigging.MultiAimConstraint" preserve="nothing"/>
-		<type fullname="UnityEngine.Animations.Rigging.Rig" preserve="nothing"/>
-		<type fullname="UnityEngine.Animations.Rigging.RigBuilder" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
@@ -71,7 +17,6 @@
 		<type fullname="Unity.VectorGraphics.SVGImage" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine">
-		<type fullname="UnityEditor.Animations.AnimatorController" preserve="nothing"/>
 		<type fullname="UnityEditor.AudioManager" preserve="nothing"/>
 		<type fullname="UnityEditor.InputManager" preserve="nothing"/>
 		<type fullname="UnityEditor.MonoManager" preserve="nothing"/>
@@ -82,15 +27,10 @@
 		<type fullname="UnityEditor.TagManager" preserve="nothing"/>
 		<type fullname="UnityEditor.TimeManager" preserve="nothing"/>
 		<type fullname="UnityEditor.VFXManager" preserve="nothing"/>
-		<type fullname="UnityEngine.AnimationClip" preserve="nothing"/>
-		<type fullname="UnityEngine.Animator" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
-		<type fullname="UnityEngine.AudioSource" preserve="nothing"/>
-		<type fullname="UnityEngine.Avatar" preserve="nothing"/>
 		<type fullname="UnityEngine.Behaviour" preserve="nothing"/>
-		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
@@ -107,17 +47,13 @@
 		<type fullname="UnityEngine.MeshFilter" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.MonoBehaviour" preserve="nothing"/>
-		<type fullname="UnityEngine.Motion" preserve="nothing"/>
 		<type fullname="UnityEngine.Object" preserve="nothing"/>
 		<type fullname="UnityEngine.QualitySettings" preserve="nothing"/>
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
 		<type fullname="UnityEngine.Renderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.GraphicsSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
-		<type fullname="UnityEngine.Rigidbody" preserve="nothing"/>
-		<type fullname="UnityEngine.RuntimeAnimatorController" preserve="nothing"/>
 		<type fullname="UnityEngine.Shader" preserve="nothing"/>
-		<type fullname="UnityEngine.SkinnedMeshRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
 		<type fullname="UnityEngine.TextAsset" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>
@@ -127,16 +63,7 @@
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>
 		<type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.Button" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.GraphicRaycaster" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.GridLayoutGroup" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.Image" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.Mask" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.RawImage" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.ScrollRect" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.Slider" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="nothing"/>
 	</assembly>
 </linker>

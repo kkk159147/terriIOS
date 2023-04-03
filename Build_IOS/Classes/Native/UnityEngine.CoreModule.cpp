@@ -10797,6 +10797,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Caching_get_ready_m30AEC4C2C496AF97FF4F5
 	bool icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
+// System.Boolean UnityEngine.Caching::ClearCache()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Caching_ClearCache_m1775C8C7289FCEE134124CF5E1AECDCBCFBB06D1 (const RuntimeMethod* method) 
+{
+	typedef bool (*Caching_ClearCache_m1775C8C7289FCEE134124CF5E1AECDCBCFBB06D1_ftn) ();
+	static Caching_ClearCache_m1775C8C7289FCEE134124CF5E1AECDCBCFBB06D1_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Caching_ClearCache_m1775C8C7289FCEE134124CF5E1AECDCBCFBB06D1_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Caching::ClearCache()");
+	bool icallRetVal = _il2cpp_icall_func();
+	return icallRetVal;
+}
 // System.Boolean UnityEngine.Caching::ClearCachedVersion(System.String,UnityEngine.Hash128)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Caching_ClearCachedVersion_mC37DCB97C97DAE1BBF081ACC416B6433A62670A9 (String_t* ___0_assetBundleName, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 ___1_hash, const RuntimeMethod* method) 
 {
