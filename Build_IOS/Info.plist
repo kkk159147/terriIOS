@@ -67,7 +67,7 @@
       <string>UIInterfaceOrientationPortrait</string>
     </array>
     <key>UIViewControllerBasedStatusBarAppearance</key>
-    <false />
+    <true />
     <key>Unity_LoadingActivityIndicatorStyle</key>
     <integer>-1</integer>
     <key>UnityCloudProjectID</key>

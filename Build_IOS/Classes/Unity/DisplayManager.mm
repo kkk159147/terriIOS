@@ -648,3 +648,11 @@ extern "C" float UnityGetBrightness()
     return 1.0f;
 #endif
 }
+
+extern "C" bool UnityIsFullscreen()
+{
+    CGSize screenSize = [[[[DisplayManager Instance] mainDisplay] screen] bounds].size;
+    CGSize viewSize = [[[[DisplayManager Instance] mainDisplay] view] bounds].size;
+    
+    return screenSize.width == viewSize.width && screenSize.height == viewSize.height;
+}

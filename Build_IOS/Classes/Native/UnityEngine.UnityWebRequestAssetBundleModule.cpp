@@ -404,10 +404,6 @@ struct String_t_StaticFields
 
 // UnityEngine.Networking.UnityWebRequestAssetBundle
 
-// System.ValueType
-
-// System.ValueType
-
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 {
@@ -448,31 +444,9 @@ struct IntPtr_t_StaticFields
 
 // UnityEngine.CachedAssetBundle
 
-// UnityEngine.Networking.CertificateHandler
-
-// UnityEngine.Networking.CertificateHandler
-
 // UnityEngine.Networking.DownloadHandler
 
 // UnityEngine.Networking.DownloadHandler
-
-// System.Exception
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
-
-// System.Exception
-
-// UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
-};
-
-// UnityEngine.Object
 
 // UnityEngine.Networking.UploadHandler
 
@@ -485,10 +459,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 // UnityEngine.Networking.DownloadHandlerAssetBundle
 
 // UnityEngine.Networking.DownloadHandlerAssetBundle
-
-// System.SystemException
-
-// System.SystemException
 
 // UnityEngine.Networking.UnityWebRequest
 

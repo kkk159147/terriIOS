@@ -318,10 +318,6 @@ struct String_t_StaticFields
 
 // UnityEngine.Networking.UnityWebRequestTexture
 
-// System.ValueType
-
-// System.ValueType
-
 // Unity.Collections.NativeArray`1<System.Byte>
 
 // Unity.Collections.NativeArray`1<System.Byte>
@@ -358,10 +354,6 @@ struct IntPtr_t_StaticFields
 
 // System.Void
 
-// UnityEngine.Networking.CertificateHandler
-
-// UnityEngine.Networking.CertificateHandler
-
 // UnityEngine.Networking.DownloadHandler
 
 // UnityEngine.Networking.DownloadHandler
@@ -382,15 +374,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 // UnityEngine.Networking.DownloadHandlerTexture
 
 // UnityEngine.Networking.DownloadHandlerTexture
-
-// UnityEngine.Texture
-struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
-{
-	// System.Int32 UnityEngine.Texture::GenerateAllMips
-	int32_t ___GenerateAllMips_4;
-};
-
-// UnityEngine.Texture
 
 // UnityEngine.Networking.UnityWebRequest
 
@@ -464,6 +447,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D__ctor_m3BA82E87442B7F69E118477069AE11101B9DF796 (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* __this, int32_t ___0_width, int32_t ___1_height, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.ImageConversion::LoadImage(UnityEngine.Texture2D,System.Byte[],System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImageConversion_LoadImage_m292ADCEED268A0A0AAD532BAB8D1710CF0FC8AEF (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___0_tex, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_data, bool ___2_markNonReadable, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Networking.DownloadHandlerTexture::ClearNativeTexture()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerTexture_ClearNativeTexture_mB4763AF5AA60EF02798465D2AF89D31BFF545C10 (DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C* __this, const RuntimeMethod* method) ;
 // UnityEngine.Texture2D UnityEngine.Networking.DownloadHandlerTexture::InternalGetTextureNative()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* DownloadHandlerTexture_InternalGetTextureNative_m9244CDF2A5DE7B9971121CAC5642DD5FEA877688 (DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C* __this, const RuntimeMethod* method) ;
 // T UnityEngine.Networking.DownloadHandler::GetCheckedDownloader<UnityEngine.Networking.DownloadHandlerTexture>(UnityEngine.Networking.UnityWebRequest)
@@ -594,7 +579,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t81F55263465517B73C455D3400CF67
 	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* L_0 = (&__this->___m_NativeData_1);
+		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* L_0 = (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF*)(&__this->___m_NativeData_1);
 		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF L_1;
 		L_1 = DownloadHandler_InternalGetNativeArray_mE622083BC3893B43BC8E7C467A1895664C3B6B89(__this, L_0, NULL);
 		V_0 = L_1;
@@ -611,7 +596,7 @@ IL_0010:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerTexture_Dispose_m8B9EB903164BC27743144F900697F7B98A4725EB (DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C* __this, const RuntimeMethod* method) 
 {
 	{
-		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* L_0 = (&__this->___m_NativeData_1);
+		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* L_0 = (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF*)(&__this->___m_NativeData_1);
 		DownloadHandler_DisposeNativeArray_m96514980A0A48921D17C059CAC2CC0CDA27B2398(L_0, NULL);
 		DownloadHandler_Dispose_mD5D4CCF0C2DFF1CB57C9B3A0EF4213ECB9F8F607(__this, NULL);
 		return;
@@ -685,7 +670,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11
 
 IL_0043:
 	{
-		goto IL_006b;
+		goto IL_0079;
 	}
 
 IL_0046:
@@ -698,25 +683,48 @@ IL_0046:
 		bool L_12 = V_2;
 		if (!L_12)
 		{
-			goto IL_006b;
+			goto IL_0079;
 		}
 	}
 	{
-		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_13;
-		L_13 = DownloadHandlerTexture_InternalGetTextureNative_m9244CDF2A5DE7B9971121CAC5642DD5FEA877688(__this, NULL);
-		__this->___mTexture_2 = L_13;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___mTexture_2), (void*)L_13);
-		__this->___mHasTexture_3 = (bool)1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_006e:
+			{// begin finally (depth: 1)
+				DownloadHandlerTexture_ClearNativeTexture_mB4763AF5AA60EF02798465D2AF89D31BFF545C10(__this, NULL);
+				return;
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_13;
+			L_13 = DownloadHandlerTexture_InternalGetTextureNative_m9244CDF2A5DE7B9971121CAC5642DD5FEA877688(__this, NULL);
+			__this->___mTexture_2 = L_13;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___mTexture_2), (void*)L_13);
+			__this->___mHasTexture_3 = (bool)1;
+			goto IL_0078;
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
 	}
 
-IL_006b:
+IL_0078:
+	{
+	}
+
+IL_0079:
 	{
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_14 = __this->___mTexture_2;
 		V_3 = L_14;
-		goto IL_0074;
+		goto IL_0082;
 	}
 
-IL_0074:
+IL_0082:
 	{
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_15 = V_3;
 		return L_15;
@@ -731,6 +739,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11
 	_il2cpp_icall_func = (DownloadHandlerTexture_InternalGetTextureNative_m9244CDF2A5DE7B9971121CAC5642DD5FEA877688_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Networking.DownloadHandlerTexture::InternalGetTextureNative()");
 	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
+}
+// System.Void UnityEngine.Networking.DownloadHandlerTexture::ClearNativeTexture()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerTexture_ClearNativeTexture_mB4763AF5AA60EF02798465D2AF89D31BFF545C10 (DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C* __this, const RuntimeMethod* method) 
+{
+	typedef void (*DownloadHandlerTexture_ClearNativeTexture_mB4763AF5AA60EF02798465D2AF89D31BFF545C10_ftn) (DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C*);
+	static DownloadHandlerTexture_ClearNativeTexture_mB4763AF5AA60EF02798465D2AF89D31BFF545C10_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DownloadHandlerTexture_ClearNativeTexture_mB4763AF5AA60EF02798465D2AF89D31BFF545C10_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Networking.DownloadHandlerTexture::ClearNativeTexture()");
+	_il2cpp_icall_func(__this);
 }
 // UnityEngine.Texture2D UnityEngine.Networking.DownloadHandlerTexture::GetContent(UnityEngine.Networking.UnityWebRequest)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* DownloadHandlerTexture_GetContent_m86BC88F58305A1B21C21CE7D82658197932EFB18 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_www, const RuntimeMethod* method) 

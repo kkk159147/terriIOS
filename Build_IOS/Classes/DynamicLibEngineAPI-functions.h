@@ -146,7 +146,7 @@ UnityExternCall(void,             UnityDestroyUnityRenderSurfaces);
 UnityExternCall(int,              UnityMainScreenRefreshRate);
 UnityExternCall(void,             UnitySetBrightness, float);
 UnityExternCall(float,            UnityGetBrightness);
-
+UnityExternCall(bool,             UnityIsFullscreen);
 
 #if SUPPORT_MULTIPLE_DISPLAYS || PLATFORM_IOS
 UnityExternCall(int,              UnityDisplayManager_DisplayCount);

@@ -47,7 +47,7 @@ static double GetTimeInSeconds()
     {
         UIKeyCommand* command = [UIKeyCommand keyCommandWithInput: keyName modifierFlags: modifierFlags action: @selector(handleCommand:)];
 #if UNITY_HAS_IOSSDK_15_0
-        if (@available(iOS 15.0, *))
+        if (@available(iOS 15.0, tvOS 15.0, *))
             command.wantsPriorityOverSystemBehavior = YES;
 #endif
         [commands addObject: command];
