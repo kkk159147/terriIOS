@@ -30,9 +30,11 @@ extern void DownloadHandlerTexture_get_texture_m170B5539995EB5984E98E426F5298358
 extern void DownloadHandlerTexture_InternalGetTexture_mD1882B183F71176C89B42DB2C8A185BC9A647167 (void);
 // 0x00000009 UnityEngine.Texture2D UnityEngine.Networking.DownloadHandlerTexture::InternalGetTextureNative()
 extern void DownloadHandlerTexture_InternalGetTextureNative_m9244CDF2A5DE7B9971121CAC5642DD5FEA877688 (void);
-// 0x0000000A UnityEngine.Texture2D UnityEngine.Networking.DownloadHandlerTexture::GetContent(UnityEngine.Networking.UnityWebRequest)
+// 0x0000000A System.Void UnityEngine.Networking.DownloadHandlerTexture::ClearNativeTexture()
+extern void DownloadHandlerTexture_ClearNativeTexture_mB4763AF5AA60EF02798465D2AF89D31BFF545C10 (void);
+// 0x0000000B UnityEngine.Texture2D UnityEngine.Networking.DownloadHandlerTexture::GetContent(UnityEngine.Networking.UnityWebRequest)
 extern void DownloadHandlerTexture_GetContent_m86BC88F58305A1B21C21CE7D82658197932EFB18 (void);
-static Il2CppMethodPointer s_methodPointers[10] = 
+static Il2CppMethodPointer s_methodPointers[11] = 
 {
 	UnityWebRequestTexture_GetTexture_m45F855106C834021AC0DFA25FE31BA14C42693CA,
 	DownloadHandlerTexture_Create_m6DBB03DC64DB11F35862D7A4F6B4A814B8531A21,
@@ -43,26 +45,28 @@ static Il2CppMethodPointer s_methodPointers[10] =
 	DownloadHandlerTexture_get_texture_m170B5539995EB5984E98E426F52983589F7BEB7C,
 	DownloadHandlerTexture_InternalGetTexture_mD1882B183F71176C89B42DB2C8A185BC9A647167,
 	DownloadHandlerTexture_InternalGetTextureNative_m9244CDF2A5DE7B9971121CAC5642DD5FEA877688,
+	DownloadHandlerTexture_ClearNativeTexture_mB4763AF5AA60EF02798465D2AF89D31BFF545C10,
 	DownloadHandlerTexture_GetContent_m86BC88F58305A1B21C21CE7D82658197932EFB18,
 };
-static const int32_t s_InvokerIndices[10] = 
+static const int32_t s_InvokerIndices[11] = 
 {
-	8098,
-	8065,
-	4690,
-	4690,
-	5540,
-	5850,
-	5733,
-	5733,
-	5733,
-	8778,
+	7912,
+	7874,
+	4719,
+	4719,
+	5512,
+	5848,
+	5718,
+	5718,
+	5718,
+	5848,
+	8561,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestTextureModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestTextureModule_CodeGenModule = 
 {
 	"UnityEngine.UnityWebRequestTextureModule.dll",
-	10,
+	11,
 	s_methodPointers,
 	0,
 	NULL,

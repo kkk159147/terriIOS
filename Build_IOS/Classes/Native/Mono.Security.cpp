@@ -2265,10 +2265,6 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
 
 // Locale
 
-// System.MarshalByRefObject
-
-// System.MarshalByRefObject
-
 // Mono.Security.Protocol.Ntlm.MessageBase
 struct MessageBase_t173306F2152A17C53A4CD23954A751EE471BD708_StaticFields
 {
@@ -2354,10 +2350,6 @@ struct String_t_StaticFields
 // System.Security.Cryptography.SymmetricAlgorithm
 
 // System.Security.Cryptography.SymmetricAlgorithm
-
-// System.ValueType
-
-// System.ValueType
 
 // Mono.Security.X509.X501
 struct X501_t5DBAC33581ADA4FC61FAF731E9A02855AB572EB4_StaticFields
@@ -2566,15 +2558,6 @@ struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
 
 // System.Int64
 
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
-// System.IntPtr
-
 // System.Security.Cryptography.KeyedHashAlgorithm
 
 // System.Security.Cryptography.KeyedHashAlgorithm
@@ -2704,10 +2687,6 @@ struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
 
 // Mono.Security.X509.X520/UserId
 
-// Interop/Sys/FileStatus
-
-// Interop/Sys/FileStatus
-
 // System.Security.Cryptography.DSACryptoServiceProvider
 struct DSACryptoServiceProvider_tB418CD8E85D69D879C7298E4A6A7D8CFAC09D79E_StaticFields
 {
@@ -2725,10 +2704,6 @@ struct Exception_t_StaticFields
 };
 
 // System.Exception
-
-// System.IO.FileStatus
-
-// System.IO.FileStatus
 
 // System.IO.FileStream
 struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_StaticFields
@@ -2775,10 +2750,6 @@ struct X509Certificate_t9ECDEAA7F2B56A899145F284A13F4D0042481356_StaticFields
 
 // Mono.Security.X509.X509Crl/X509CrlEntry
 
-// System.IO.FileSystemInfo
-
-// System.IO.FileSystemInfo
-
 // System.Security.Cryptography.HMACMD5
 
 // System.Security.Cryptography.HMACMD5
@@ -2786,10 +2757,6 @@ struct X509Certificate_t9ECDEAA7F2B56A899145F284A13F4D0042481356_StaticFields
 // System.Security.Cryptography.HMACSHA1
 
 // System.Security.Cryptography.HMACSHA1
-
-// System.SystemException
-
-// System.SystemException
 
 // System.ArgumentException
 
@@ -4819,7 +4786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ASN1_ToString_m4995F083B02F8FEF578E
 		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_0, NULL);
 		V_0 = L_0;
 		StringBuilder_t* L_1 = V_0;
-		uint8_t* L_2 = (&__this->___m_nTag_0);
+		uint8_t* L_2 = (uint8_t*)(&__this->___m_nTag_0);
 		String_t* L_3;
 		L_3 = Byte_ToString_m793A41EEEB7B422F6FE658E99D2F7683F59EE310(L_2, _stringLiteralB4A94E440E57B3321B2097CEC9E046D28EE1C0CD, NULL);
 		String_t* L_4;
@@ -10557,7 +10524,7 @@ IL_005f:
 		RuntimeObject* L_40 = ___1_attributes;
 		NullCheck(L_40);
 		RuntimeObject* L_41;
-		L_41 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(8 /* System.Collections.IDictionaryEnumerator System.Collections.IDictionary::GetEnumerator() */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_40);
+		L_41 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(9 /* System.Collections.IDictionaryEnumerator System.Collections.IDictionary::GetEnumerator() */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_40);
 		V_5 = L_41;
 		goto IL_027f;
 	}
@@ -10985,7 +10952,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ASN1_t33549D58797C9C33AA83F13AD184EAA00C584A6
 		RuntimeObject* L_23 = ___1_attributes;
 		NullCheck(L_23);
 		RuntimeObject* L_24;
-		L_24 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(8 /* System.Collections.IDictionaryEnumerator System.Collections.IDictionary::GetEnumerator() */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_23);
+		L_24 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(9 /* System.Collections.IDictionaryEnumerator System.Collections.IDictionary::GetEnumerator() */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_23);
 		V_5 = L_24;
 		goto IL_0206;
 	}
@@ -22483,10 +22450,10 @@ IL_0033:
 			NullCheck(L_9);
 			NullCheck(L_7);
 			int32_t L_10;
-			L_10 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(30 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_7, L_8, 0, ((int32_t)(((RuntimeArray*)L_9)->max_length)));
+			L_10 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_7, L_8, 0, ((int32_t)(((RuntimeArray*)L_9)->max_length)));
 			FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_11 = V_1;
 			NullCheck(L_11);
-			VirtualActionInvoker0::Invoke(18 /* System.Void System.IO.Stream::Close() */, L_11);
+			VirtualActionInvoker0::Invoke(19 /* System.Void System.IO.Stream::Close() */, L_11);
 			goto IL_0034;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
@@ -24507,7 +24474,7 @@ IL_0027:
 IL_005c:
 	{
 		StringBuilder_t* L_14 = V_0;
-		int32_t* L_15 = (&__this->___pathLenConstraint_4);
+		int32_t* L_15 = (int32_t*)(&__this->___pathLenConstraint_4);
 		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
 		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_16;
 		L_16 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
